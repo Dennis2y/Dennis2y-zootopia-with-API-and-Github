@@ -1,22 +1,17 @@
-# 🦊 Zootopia - Animal Web Page Generator
+# 🦊 Zootopia Animal Explorer with API Integration
 
-This project takes animal data and generates a beautiful web page using Python and HTML!
+This project displays animal data in an HTML page using an external API. It's part of a learning journey in software engineering and Python development.
 
-## 📦 How to Use
+## 🔧 Features
 
-1. Clone the repo
-2. Run: `python animals_web_generator.py`
-3. View the generated HTML file in your browser
+- Reads animal data from an API
+- Generates an HTML page using templates
+- API key securely loaded from `.env` file
+- Organized and beginner-friendly code
 
-## 🔐 Security
+## 🚀 Setup Instructions
 
-We use a `.env` file to store the API key and hide secrets.
-
-## 🧾 Files
-
-- `animals_web_generator.py` - Main Python code
-- `animals_template.html` - HTML template
-- `.env` - Hidden secret file (not shared)
-- `.gitignore` - Tells Git to ignore `.env`
-
-Enjoy exploring the animal kingdom!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Dennis2y/Dennis2y-zootopia-with-API-and-Github.git
+   cd Dennis2y-zootopia-with-API-and-Github
