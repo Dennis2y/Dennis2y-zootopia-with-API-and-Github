@@ -1,11 +1,15 @@
-# data_fetcher.py
 import os
 import requests
 from dotenv import load_dotenv
 
+print("Before loading .env file")
+
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
+
+print("After loading .env file")
+print("Loaded API_KEY:", API_KEY)
 
 def fetch_data(animal_name):
     """
@@ -19,4 +23,10 @@ def fetch_data(animal_name):
     if response.status_code == 200:
         return response.json()
     else:
-        return []  # Empty list = no animals found or error
+        return []
+
+if __name__ == "__main__":
+    print("This is the main block")
+    animal_name = "cat"  
+    result = fetch_data(animal_name)
+    print("Fetched data:", result)
