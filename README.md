@@ -1,6 +1,8 @@
 # 🦊 Zootopia Animal Explorer with API Integration
 
-This project displays animal data in an HTML page using an external API. It's part of a learning journey in software engineering and Python development.
+This project displays animal data in an HTML page using an external API and showcasing various animals.
+
+
 
 ## 🔧 Features
 
