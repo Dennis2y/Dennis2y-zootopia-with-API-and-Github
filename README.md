@@ -11,6 +11,7 @@ HTML Generation: Creates a user-friendly HTML page displaying animal information
 Template Usage: Utilizes an HTML template for consistent styling.
 
 🛠️ Installation
+
 To install this project, Clone the Repository:
 
 cd Zootopia-with-API
@@ -19,7 +20,7 @@ Create a Virtual Environment (Optional but Recommended):
 
 python -m venv venv
 
-source venv/bin/activate # On Windows: venv\Scripts\activate
+
 
 Install Dependencies:
 
@@ -43,7 +44,9 @@ Zootopia-with-API/
 ├── animals_web_generator.py    # Main script to fetch data and generate HTML
 ├── data_fetcher.py             # Module to handle API requests
 ├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
+└── README.md 
+
+# Project documentation
 🐍 Dependencies
 Python 3.x
 Requests library
