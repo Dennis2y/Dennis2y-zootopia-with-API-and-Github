@@ -16,8 +16,6 @@ To install this project, Clone the Repository:
 
 cd Zootopia-with-API
 
-Create a Virtual Environment (Optional but Recommended):
-
 python -m venv venv
 
 
@@ -31,7 +29,7 @@ To use this project, Run the following command:
 
 python animals_web_generator.py
 
-Ex. Enter a name of animal: lion
+Ex. Enter a name of animal: Cat
 
 View the output:
 
