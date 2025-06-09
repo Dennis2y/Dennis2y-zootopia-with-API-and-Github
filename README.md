@@ -37,11 +37,11 @@ Open the generated animals.html file in your web browser to see the list of anim
 
 📁 Project Structure
 Zootopia-with-API/
-├── animals_template.html       # HTML template for the default page
-├── animals.html                # HTML template for the ouput page
-├── animals_web_generator.py    # Main script to fetch data and generate HTML
-├── data_fetcher.py             # Module to handle API requests
-├── requirements.txt            # Python dependencies
+├── animals_template.html       
+├── animals.html                
+├── animals_web_generator.py    
+├── data_fetcher.py             
+├── requirements.txt          
 └── README.md 
 
 # Project documentation
