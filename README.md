@@ -9,10 +9,9 @@ This project displays animal data in an HTML page using an external API and show
 DATA Retrieval: Fetches animal data from a public API.
 HTML Generation: Creates a user-friendly HTML page displaying animal information.
 Template Usage: Utilizes an HTML template for consistent styling.
+
 🛠️ Installation
 To install this project, Clone the Repository:
-
-git clone https://github.com/shinegit1/Zootopia-with-API.git
 
 cd Zootopia-with-API
 
